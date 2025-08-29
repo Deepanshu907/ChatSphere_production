@@ -20,7 +20,7 @@ export const handleChat = async (req, res) => {
 
     res.json({ reply: response });
   } catch (err) {
-    console.error("❌ Gemini error:", err.message);
     res.status(500).json({ error: "Error communicating with Gemini API" });
   }
 };
+console.error("❌ Gemini error:", err.message);
