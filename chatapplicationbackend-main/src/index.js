@@ -20,7 +20,7 @@ const __dirname = path.resolve();
 app.use(
 
   cors({
-    origin: "https://chat-sphere-product-git-445d4e-deepanshu-kumar-jindals-projects.vercel.app?_vercel_share=ALD3qFh2P13KA77agmq5ppJhEnf87L3q",
+    origin: "https://chat-sphere-production-frontend.vercel.app",
     credentials: true, // allow frontend to send cookies
   })
 );
